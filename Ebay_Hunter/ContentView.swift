@@ -10,7 +10,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack {
+            TextField("Search", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .padding()
+            
+            VStack {
+                VStack {
+                    
+                    HStack {
+                        Text("test")
+                        
+                        Text("test2")
+                    }
+                    
+                    Text("My List")
+                    .bold()
+                    .padding()
+                }
+            }
+        }
+        
     }
 }
 

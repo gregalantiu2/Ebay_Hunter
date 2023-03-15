@@ -15,6 +15,7 @@
 		BF6C2D1F2999A48D009AB09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6C2D1D2999A48D009AB09B /* LaunchScreen.storyboard */; };
 		BF6C2D2A2999A48D009AB09B /* Ebay_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C2D292999A48D009AB09B /* Ebay_HunterTests.swift */; };
 		BF6C2D352999A48D009AB09B /* Ebay_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C2D342999A48D009AB09B /* Ebay_HunterUITests.swift */; };
+		BFEEC05F29C16E2E0055FDE0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEEC05E29C16E2E0055FDE0 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF6C2D302999A48D009AB09B /* Ebay_HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ebay_HunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6C2D342999A48D009AB09B /* Ebay_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ebay_HunterUITests.swift; sourceTree = "<group>"; };
 		BF6C2D362999A48D009AB09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEEC05E29C16E2E0055FDE0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		BF6C2D112999A487009AB09B /* Ebay_Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				BFEEC05E29C16E2E0055FDE0 /* logo.png */,
 				BF6C2D122999A487009AB09B /* AppDelegate.swift */,
 				BF6C2D142999A487009AB09B /* SceneDelegate.swift */,
 				BF6C2D162999A487009AB09B /* ContentView.swift */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6C2D1F2999A48D009AB09B /* LaunchScreen.storyboard in Resources */,
+				BFEEC05F29C16E2E0055FDE0 /* logo.png in Resources */,
 				BF6C2D1C2999A48D009AB09B /* Preview Assets.xcassets in Resources */,
 				BF6C2D192999A48D009AB09B /* Assets.xcassets in Resources */,
 			);
