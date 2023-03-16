@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF665E2029C293BC00F089A3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF665E1F29C293BC00F089A3 /* SearchView.swift */; };
 		BF6C2D132999A487009AB09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C2D122999A487009AB09B /* AppDelegate.swift */; };
 		BF6C2D152999A487009AB09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C2D142999A487009AB09B /* SceneDelegate.swift */; };
 		BF6C2D172999A487009AB09B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C2D162999A487009AB09B /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF665E1F29C293BC00F089A3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BF6C2D0F2999A487009AB09B /* Ebay_Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ebay_Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6C2D122999A487009AB09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6C2D142999A487009AB09B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				BF6C2D1D2999A48D009AB09B /* LaunchScreen.storyboard */,
 				BF6C2D202999A48D009AB09B /* Info.plist */,
 				BF6C2D1A2999A48D009AB09B /* Preview Content */,
+				BF665E1F29C293BC00F089A3 /* SearchView.swift */,
 			);
 			path = Ebay_Hunter;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF665E2029C293BC00F089A3 /* SearchView.swift in Sources */,
 				BF6C2D132999A487009AB09B /* AppDelegate.swift in Sources */,
 				BF6C2D152999A487009AB09B /* SceneDelegate.swift in Sources */,
 				BF6C2D172999A487009AB09B /* ContentView.swift in Sources */,

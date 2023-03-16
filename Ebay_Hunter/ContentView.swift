@@ -10,27 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        VStack {
-            TextField("Search", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                .padding()
-            
-            VStack {
-                VStack {
-                    
-                    HStack {
-                        Text("test")
-                        
-                        Text("test2")
-                    }
-                    
-                    Text("My List")
-                    .bold()
-                    .padding()
+        NavigationView{
+            VStack{
+                NavigationLink(destination: SearchView()) {
+                    Text("New Search").padding()
                 }
+                Text("Previous Searches").bold()
+                
+                List {
+                    /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Content@*/Text("Content")/*@END_MENU_TOKEN@*/
+                }
+                Spacer()
             }
         }
-        
     }
 }
 
