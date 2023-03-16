@@ -9,12 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isActive : Bool = false
+    
     var body: some View {
         NavigationView{
             VStack{
-                NavigationLink(destination: SearchView()) {
+                NavigationLink(destination: SearchView(rootIsActive: self.$isActive),                 isActive: self.$isActive
+                ) {
                     Text("New Search").padding()
                 }
+                .isDetailLink(false)
+                .navigationBarTitle("Ebay Hunter")
+                
                 Text("Previous Searches").bold()
                 
                 List {
